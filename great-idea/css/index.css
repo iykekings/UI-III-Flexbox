@@ -260,7 +260,7 @@ main.services {
   margin: 20px;
   padding: 2rem;
   border: 2px darkgray solid;
-  height: 250px;
+  background-color: #ebebeb;
 }
 
 .service-con .s-item > p {
@@ -287,7 +287,30 @@ main.services {
 /* Start service-bottom */
 .service-bottom {
   display: flex;
-  align-items: center;
-  justify-content: start;
+  margin: 5rem 0;
+  flex-wrap: wrap;
+}
+
+.service-bottom .sb-item {
+  flex: 1 1 500px;
+  margin: 0 2rem 2rem 0;
+}
+
+.service-bottom .sb-item > * {
+  margin-bottom: 1rem;
+}
+.service-bottom .sb-item ul {
+  list-style: disc;
+}
+.service-bottom .sb-item ul li {
+  margin-bottom: 0.7rem;
+}
+
+.service-bottom .sb-image {
+  width: 45%;
+}
+
+.service-bottom .sb-image img {
+  width: 100%;
 }
 /* End service-bottom */
