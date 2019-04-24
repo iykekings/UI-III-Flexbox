@@ -163,6 +163,7 @@ nav {
 nav a {
   color: grey;
   margin-right: 5rem;
+  text-decoration: none;
 }
 
 .main-container {
@@ -171,14 +172,19 @@ nav a {
 .main-container .hero {
   text-align: center;
   padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-container .hero .hero-text {
   width: 30%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main-container .hero .hero-image {
   width: 45%;
-  display: inline-block;
 }
 h1 {
   font-size: 5rem;
@@ -200,13 +206,15 @@ h2 {
   padding: 3rem 0rem;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .what-we-do .wwd-item {
   margin: 2rem 2rem 0 0;
-  display: inline-block;
   width: 30%;
 }
+
 .what-we-do img.middle-img {
   width: 100%;
 }
@@ -224,4 +232,8 @@ h2 {
 
 .contact-container p {
   margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
 }
