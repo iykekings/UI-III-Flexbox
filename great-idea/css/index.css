@@ -237,3 +237,57 @@ h2 {
 footer {
   text-align: center;
 }
+
+/* Style for Services page */
+main.services {
+  margin: 102px 5rem;
+}
+
+/* Start service-con */
+
+.service-con {
+  padding: 3rem 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-con .s-item {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 20px;
+  padding: 2rem;
+  border: 2px darkgray solid;
+  height: 250px;
+}
+
+.service-con .s-item > p {
+  margin: 2rem 0;
+}
+
+/* End service-con */
+
+/* Start Services-hero */
+.services-hero {
+  margin-bottom: 3rem;
+}
+
+.services-hero .hero-image img {
+  width: 100%;
+}
+
+.services-hero .hero-text {
+  margin-top: 1rem;
+}
+
+/* End Services-hero */
+
+/* Start service-bottom */
+.service-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+/* End service-bottom */
